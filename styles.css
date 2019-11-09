@@ -1,6 +1,78 @@
-div {
-    margin-top: 150px;
-    font-family: sans-serif;
-    font-size: 66.6px;
-    text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap");
+* {
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: #262525;
+  line-height: 1.4;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .logo {
+  margin: 30px 50px;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #262525;
+}
+.header .navigation {
+  margin: 30px 50px;
+}
+.header .navigation .nav_list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.header .navigation .nav_list .nav_link {
+  font-size: 15px;
+  color: #aaaaaa;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.header .navigation .nav_list .nav_link:not(:first-child) {
+  margin-left: 15px;
+}
+.header .navigation .nav_list .nav_link:hover {
+  transition: color 0.3s ease;
+  color: #262525;
+}
+
+.intro {
+  display: flex;
+}
+.intro .intro_text {
+  padding-left: 220px;
+  align-self: center;
+}
+.intro .intro_text h3 {
+  padding: 0;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 69px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #262525;
+}
+.intro .intro_pic {
+  margin-left: -60px;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=styles.css.map */
