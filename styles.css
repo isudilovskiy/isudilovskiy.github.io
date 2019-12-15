@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -40,18 +44,19 @@ body {
   display: flex;
   list-style: none;
 }
-.header .navigation .nav_list .nav_link {
+.header .navigation .nav_list .nav_item .nav_link {
   font-size: 15px;
   color: #aaaaaa;
   cursor: pointer;
+  text-decoration: none;
   transition: color 0.2s ease;
 }
-.header .navigation .nav_list .nav_link:not(:first-child) {
-  margin-left: 15px;
-}
-.header .navigation .nav_list .nav_link:hover {
+.header .navigation .nav_list .nav_item .nav_link:hover {
   transition: color 0.3s ease;
   color: #262525;
+}
+.header .navigation .nav_list .nav_item:not(:first-child) {
+  margin-left: 15px;
 }
 
 .intro {
@@ -161,6 +166,32 @@ body {
   opacity: 0.9;
   transition: all 0.25s ease;
 }
+
+.footer {
+  padding: 50px 0;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer .footer_copyright {
+  margin: 20px 0;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: #aaaaaa;
+}
+.footer .footer_social .social_link {
+  padding: 0 10px;
+  text-decoration: none;
+  color: #aaaaaa;
+  transition: color 0.25s ease;
+}
+.footer .footer_social .social_link:hover {
+  transition: color 0.25s ease;
+  color: #262525;
+}
+
 @keyframes scroll {
   0% {
     opacity: 0;
