@@ -13,7 +13,7 @@ body {
   padding: 0;
   font-family: "Karla", sans-serif;
   font-weight: 400;
-  color: #262525;
+  color: #302525;
   line-height: 1.4;
 }
 
@@ -33,7 +33,7 @@ body {
   line-height: 1.4;
   text-transform: uppercase;
   text-decoration: none;
-  color: #262525;
+  color: #302525;
 }
 .header .navigation {
   margin: 30px 50px;
@@ -53,7 +53,7 @@ body {
 }
 .header .navigation .nav_list .nav_item .nav_link:hover {
   transition: color 0.3s ease;
-  color: #262525;
+  color: #302525;
 }
 .header .navigation .nav_list .nav_item:not(:first-child) {
   margin-left: 15px;
@@ -74,7 +74,7 @@ body {
   font-size: 69px;
   font-weight: 300;
   line-height: 1.2;
-  color: #262525;
+  color: #302525;
 }
 .intro .intro_pic {
   margin-left: -60px;
@@ -159,7 +159,7 @@ body {
 .works .project_link .overlay .overlay_title {
   font-family: "Karla", sans-serif;
   font-size: 18px;
-  color: #262525;
+  color: #302525;
   text-transform: uppercase;
 }
 .works .project_link:hover .overlay {
@@ -189,7 +189,7 @@ body {
 }
 .footer .footer_social .social_link:hover {
   transition: color 0.25s ease;
-  color: #262525;
+  color: #302525;
 }
 
 @keyframes scroll {
