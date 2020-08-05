@@ -84,9 +84,9 @@ body {
 .intro {
   display: flex;
   margin-bottom: 60px;
+  justify-content: center;
 
   .intro_title {
-    padding-left: 220px;
     align-self: center;
 
     .intro_title_text {
